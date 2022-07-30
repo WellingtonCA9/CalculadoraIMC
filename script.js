@@ -31,7 +31,7 @@ function validate(){
     const peso = document.getElementById('peso');
     const altura = document.getElementById('altura');
     if(!peso.value || !altura.value){
-        console.log("Campos incorretos");
+        console.log("Valores incorretosValo");
     }
     else{
         let imc = peso.value / (altura.value * altura.value);
